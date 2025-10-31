@@ -14,7 +14,7 @@ def char_count(text: str) -> dict:
 
     return dict
 
-def sorted_dict(dict: dict) -> dict:
+def sorted_dict(dict: dict) -> list:
     dict_list = []
     for key, val in dict.items():
         dict_list.append(
